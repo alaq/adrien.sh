@@ -1,16 +1,12 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Adrien Lacquemant
+avatar: /static/images/profile.jpg
+occupation: Software Engineer/Indie Hacker
+company: Bloomberg LP
+email: hello@adrien.sh
+twitter: https://twitter.com/adrien
+linkedin: https://www.linkedin.com/in/adrien-lacquemant
+github: https://github.com/alaq
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
-
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I tweet mildly interesting micro-SaaS ideas, and sometimes attempt to build them in public. During the day, I build trading platforms on the Bloomberg Terminal.
