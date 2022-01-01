@@ -23,7 +23,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             {title}
           </h1>
-          <div className="relative max-w-lg">
+          {/* <div className="relative max-w-lg">
             <input
               aria-label="Search articles"
               type="text"
@@ -45,7 +45,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
               />
             </svg>
-          </div>
+          </div> */}
         </div>
         <ul>
           {!filteredBlogPosts.length && 'No posts found.'}
