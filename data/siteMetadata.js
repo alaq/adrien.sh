@@ -4,6 +4,7 @@ const siteMetadata = {
   headerTitle: 'adrien.sh',
   description: "Adrien's digital garden",
   language: 'en-us',
+  theme: 'system',
   siteUrl: 'https://adrien-sh.vercel.app',
   siteRepo: 'https://github.com/alaq/adrien.sh',
   siteLogo: '/static/images/logo.png',

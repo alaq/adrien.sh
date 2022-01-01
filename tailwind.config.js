@@ -24,6 +24,7 @@ module.exports = {
       colors: {
         primary: colors.teal,
         gray: colors.neutral,
+        thatcolor: '#1f2430',
       },
       typography: (theme) => ({
         DEFAULT: {
