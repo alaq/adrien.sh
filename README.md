@@ -1,5 +1,9 @@
 ![tailwind-nextjs-banner](/public/static/images/twitter-card.png)
 
+# adrien.sh
+
+This is the code for [my digital garden](https://adrien.sh). It is a lightly modified version of the [tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog/) template, so that upstream updates can be rebased on with minimal difficulty.
+
 # Tailwind Nextjs Starter Blog
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/timlrx/tailwind-nextjs-starter-blog?style=social)](https://GitHub.com/timlrx/tailwind-nextjs-starter-blog/stargazers/)
