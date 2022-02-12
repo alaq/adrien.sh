@@ -45,26 +45,28 @@ export default function Blog({ post, authorDetails, prev, next }) {
 
   return (
     <>
-      {frontMatter.draft !== true ? (
-        <MDXLayoutRenderer
-          layout={frontMatter.layout || DEFAULT_LAYOUT}
-          toc={toc}
-          mdxSource={mdxSource}
-          frontMatter={frontMatter}
-          authorDetails={authorDetails}
-          prev={prev}
-          next={next}
-        />
-      ) : (
+      {frontMatter.draft && (
         <div className="mt-24 text-center">
           <PageTitle>
-            Under Construction{' '}
+            <span role="img" aria-label="roadwork sign">
+              🚧
+            </span>{' '}
+            This article is a draft{' '}
             <span role="img" aria-label="roadwork sign">
               🚧
             </span>
           </PageTitle>
         </div>
       )}
+      <MDXLayoutRenderer
+        layout={frontMatter.layout || DEFAULT_LAYOUT}
+        toc={toc}
+        mdxSource={mdxSource}
+        frontMatter={frontMatter}
+        authorDetails={authorDetails}
+        prev={prev}
+        next={next}
+      />
     </>
   )
 }
