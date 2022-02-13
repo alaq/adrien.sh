@@ -46,16 +46,16 @@ export default function Blog({ post, authorDetails, prev, next }) {
   return (
     <>
       {frontMatter.draft && (
-        <div className="mt-24 text-center">
-          <PageTitle>
-            <span role="img" aria-label="roadwork sign">
-              🚧
-            </span>{' '}
-            This article is a draft{' '}
-            <span role="img" aria-label="roadwork sign">
-              🚧
-            </span>
-          </PageTitle>
+        <div className="my-16 text-center">
+          {/* <PageTitle> */}
+          <span role="img" aria-label="roadwork sign">
+            🚧
+          </span>{' '}
+          This article is a draft{' '}
+          <span role="img" aria-label="roadwork sign">
+            🚧
+          </span>
+          {/* </PageTitle> */}
         </div>
       )}
       <MDXLayoutRenderer
